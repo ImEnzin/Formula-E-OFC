@@ -1,0 +1,57 @@
+/* Titulo dos cards */
+.titulo-nav {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    flex-wrap: wrap;
+    font-family: var(--fonte-Jura);
+  }
+  .titulo-nav h1{
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .explorar {
+    color: var(--vermelho);
+    text-decoration: 1px underline;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  /* Card */
+  .container{
+      background-color: transparent;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  
+  .card-container{
+      background-color: #fff;
+      width: 250px;
+      height: 305px;
+      border-radius: 10px;
+      font-family: var(--fonte-Jura);
+  }
+  
+  .card-container > img{
+      width: 100%;
+      height: 30vh;
+      border-radius: 10px 10px 0px 0px;
+  }
+  .card-container h2{
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+    .margin{
+        margin: 10px 20px;
+    }
+  
+    strong{
+      color: var(--vermelho);
+    }
