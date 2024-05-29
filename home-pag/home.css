@@ -34,6 +34,7 @@
   height: 305px;
   border-radius: 10px;
   font-family: var(--fonte-Jura);
+  margin-bottom: 3vh;
 }
 
 .card-container > img {
