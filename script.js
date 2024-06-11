@@ -10,7 +10,6 @@ navbar.innerHTML = `
 <!-- Lado direito da navbar -->
 <div id="nav-right">
 <ul>
-  <li><a href="../timeMahindra-pag/timeMahindra.html">Time Mahindra</a></li>
   <li><a href="../formulaE-pag/formulaE.html">Fórmula E</a></li>
   <li><a href="../loja-pag/loja.html">Loja</a></li>
   <li><a href="../eGame-pag/eGame.html">E-game</a></li>
