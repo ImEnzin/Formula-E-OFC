@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --vermelho: #a50000;
+  --color-1: #fff;
+  --color-2: #000;
+  --fonte-Jura: "Jura", sans-serif;
+  --fonte-quantico: "Quantico", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Loja */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card-container {
+  background-color: var(--color-1);
+  width: 250px;
+  height: 270px;
+  border-radius: 10px;
+  font-family: var(--fonte-Jura);
+  margin-bottom: 3vh;
+  cursor: pointer;
+}
+
+.card-container > img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-container h2 {
+  text-transform: none;
+  color: var(--color-2);
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-container p {
+    color: var(--color-2);
+    text-transform: none;
+}
+
+.margin{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* Produto */
+.produto img{
+    width: 20vw;
+    border-radius: 10px;
+}
+
+h3{
+    color: var(--color-1);
+    font-size: 15px;
+    font-family: var(--fonte-quantico);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.produto p{
+    color: var(--color-1);
+    font-family: var(--fonte-Jura);
+    font-weight: 300;
+    width: 20vw;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.flex div{
+    display: flex;
+    flex-direction: column;
+}
+
+#endereco{
+    width: 250px;
+}
+
+#numero{
+    width: 80px;
+}
+
+label{
+    color: var(--color-1);
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: var(--fonte-Jura);
+}
+
+input, select{
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: var(--color-1);
+    font-family: var(--fonte-quantico);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p{
+    font-family: var(--fonte-Jura);
+    color: var(--color-1);
+    margin: 8px 0 20px 0;
+    font-size: 18px;
+}
+
+.btn-resgatar{
+    background-color: var(--vermelho);
+    border: none;
+    padding: 5px 20px;
+    color: var(--color-1);
+    font-family: var(--fonte-quantico);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+    width: fit-content;
+  }

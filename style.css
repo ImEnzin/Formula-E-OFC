@@ -26,6 +26,14 @@ body {
   overflow-x: hidden;
 }
 
+.margin {
+  margin: 10px 20px;
+}
+
+strong {
+  color: var(--vermelho);
+}
+
 .main {
   margin: 50px;
 }

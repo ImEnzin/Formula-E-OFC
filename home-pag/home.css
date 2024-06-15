@@ -42,19 +42,12 @@
   height: 30vh;
   border-radius: 10px 10px 0px 0px;
 }
+
 .card-container h2 {
   width: 100%;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 700;
-}
-
-.margin {
-  margin: 10px 20px;
-}
-
-strong {
-  color: var(--vermelho);
 }
 
 /* Parte para colocar o video */
