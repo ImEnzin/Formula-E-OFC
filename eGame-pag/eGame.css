@@ -1,0 +1,29 @@
+#seletores-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+.seletor select{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+#tabela-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tg-0lax{
+    padding: 5px 20px;
+    font-weight: 300;
+}
+
+thead .tg-0lax{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}

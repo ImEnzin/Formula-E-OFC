@@ -130,6 +130,33 @@ body {
   padding-right: 10px;
 }
 
+/* e-game */
+.seletor h3{
+  color: var(--color-1);
+  font-family: var(--fonte-Jura);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+thead tr{
+  background-color: var(--vermelho);
+  color: var(--color-1);
+  font-family: var(--fonte-quantico);
+}
+
+tbody .tg-0lax{
+  color: var(--color-1);
+  font-family: var(--fonte-Jura);
+  background-color: #0a15209d;
+  font-size: 18px;
+}
+
+.egame-link{
+  color: var(--vermelho);
+  font-family: var(--fonte-Jura);
+  margin-bottom: 10px;
+}
+
 /* footer */
 footer {
   display: flex;
