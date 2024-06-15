@@ -196,3 +196,11 @@ h2{
   width: 35vw;
   height: fit-content;
 }
+
+.linhaDoTempo{
+  margin: 95px 0 5px -50px;
+}
+
+.linhaDoTempo img{
+  width: 80vw;
+}
