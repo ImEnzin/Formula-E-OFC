@@ -2,65 +2,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-    --vermelho: #a50000;
-    --color-1: #fff;
-    --color-2: #000;
-    --fonte-Jura: "Jura", sans-serif;
-    --fonte-quantico: "Quantico", sans-serif;
+  --vermelho: #a50000;
+  --color-1: #fff;
+  --color-2: #000;
+  --fonte-Jura: "Jura", sans-serif;
+  --fonte-quantico: "Quantico", sans-serif;
 }
 
-#seletores-container{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 80px 0;
+#seletores-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0;
+  width: 100vw;
 }
 
-.seletor select{
-    width: 100%;
-    padding: 5px;
-    border: none;
-    border-radius: 8px;
+.seletor select {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
 }
 
-#tabela-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#tabela-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.tg-0lax{
-    padding: 5px 20px;
-    font-weight: 300;
+.tg-0lax {
+  padding: 5px 20px;
+  font-weight: 300;
 }
 
-thead .tg-0lax{
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
+thead .tg-0lax {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
-.seletor h3{
-    color: var(--color-1);
-    font-family: var(--fonte-Jura);
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-  
-  thead tr{
-    background-color: var(--vermelho);
-    color: var(--color-1);
-    font-family: var(--fonte-quantico);
-  }
-  
-  tbody .tg-0lax{
-    color: var(--color-1);
-    font-family: var(--fonte-Jura);
-    background-color: #0a15209d;
-    font-size: 18px;
-  }
-  
-  .egame-link{
-    color: var(--vermelho);
-    font-family: var(--fonte-Jura);
-    margin-bottom: 10px;
-  }
+.seletor h3 {
+  color: var(--color-1);
+  font-family: var(--fonte-Jura);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+thead tr {
+  background-color: var(--vermelho);
+  color: var(--color-1);
+  font-family: var(--fonte-quantico);
+}
+
+tbody .tg-0lax {
+  color: var(--color-1);
+  font-family: var(--fonte-Jura);
+  background-color: #0a15209d;
+  font-size: 18px;
+}
+
+.egame-link {
+  color: var(--vermelho);
+  font-family: var(--fonte-Jura);
+  margin-bottom: 10px;
+}
+
+.organizar-seletores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e-btn {
+  margin-bottom: 30px;
+  border: none;
+  background-color: var(--vermelho);
+  color: var(--color-1);
+  text-transform: uppercase;
+  padding: 8px 20px;
+  font-family: var(--fonte-quantico);
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -124,3 +124,10 @@ function alterarConteudo(geracao) {
       break;
   } 
 }
+
+// Egame
+const btnEgame = document.querySelector('.e-btn');
+
+btnEgame.addEventListener('click', () => {
+    alert('Escolhas salvas.');
+});
