@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.css" />
+    <script src="slide.js" defer></script>
     <script src="../script.js" defer></script>
     <title>Mahindra Racing</title>
   </head>
@@ -14,15 +15,34 @@
     </nav>
 
     <!-- Espaço slideshow  -->
-    <div class="slide-container">
-      <img src="../img/card1.png" alt="" class="img-slide" />
+    <div id="slide-container">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+
+          <div class="slide first">
+            <img src="../img/card1.png" alt="egame" />
+          </div>
+
+          <div class="slide">
+            <img src="../img/card2.png" alt="" />
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+        </div>
+      </div>
     </div>
 
     <div class="main">
       <section>
         <div class="titulo-nav">
           <h1>Navegue pela loja de pontos</h1>
-          <a href="../loja-pag/loja.html"><h2 class="explorar">Explorar tudo</h2></a>
+          <a href="../loja-pag/loja.html"
+            ><h2 class="explorar">Explorar tudo</h2></a
+          >
         </div>
 
         <div class="container">
