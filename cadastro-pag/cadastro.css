@@ -14,6 +14,9 @@
   height: 90vh;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/background-cadEnt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container-cad{
@@ -54,6 +57,7 @@ input::placeholder{
   text-transform: uppercase;
   font-size: 18px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .ent-link{
