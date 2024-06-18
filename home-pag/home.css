@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --vermelho: #a50000;
+  --color-1: #fff;
+  --color-2: #000;
+  --fonte-Jura: "Jura", sans-serif;
+  --fonte-quantico: "Quantico", sans-serif;
+}
+
 /* Titulo dos cards */
 .titulo-nav {
   width: 100%;
@@ -119,4 +130,34 @@
 
 #radio2:checked ~ .first{
   margin-left: -50%;
+}
+
+.egame-section{
+  background-image: url(../img/background-eGame.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin-left: -50px;
+  margin-top: 50px;
+}
+
+.conteudo-egame{
+  margin: 40px 50px 0 50px;
+  color: var(--color-1);
+  font-family: var(--fonte-Jura);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.conteudo-egame p{
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.conteudo-egame a{
+  color: var(--color-1);
 }
